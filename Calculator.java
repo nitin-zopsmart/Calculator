@@ -18,6 +18,10 @@ public class Calculator {
             case 2:
                 System.out.println("Difference is "+(a-b));
                 break;
+            case 3:
+                System.out.println("Product is :"+(a*b));
+            case 4:
+                System.out.println("Division is :"+(a/b));
             default:
                 System.out.println("Please recheck files");
                 break;
